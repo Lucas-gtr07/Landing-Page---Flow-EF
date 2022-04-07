@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+#header {
+    border-bottom: ridge 3px #F4F4F4;
+    margin-top: 5px;
+    margin: auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    background-color: white;
+
+}
+.logo {
+    width: 75px;
+}
+
+.icons:hover {
+    background: rgba(0,0,0,0);
+    color: #ffbb13;
+    box-shadow: inset 0 0 0 3px #ffbb13;
+}
+
+div {
+    width: 250px;
+    height: 550px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#container-a {
+    border-top: solid 20px #ffbb13;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 100px;
+    margin-top: 75px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffbb13;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #e8e6e6;
+}
+
+#container-b {
+
+    border-top: solid 20px #ea5959;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100px;
+    font-size: 25px;
+    color:#ea5959;
+    font-weight: bold;
+    background-color: #e8e6e6;
+}
+
+#container-c {
+    border-top: solid 20px #8A8A8A;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100px;
+    font-size: 25px;
+    color: #8A8A8A;
+    font-weight: bold;
+    background-color:#e8e6e6;
+}
+
+#container-d {
+    border-top: solid 20px #111111;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100px;
+    font-size: 25px;
+    color: #111111;
+    font-weight: bold;
+    background-color: #e8e6e6;
+}
+
+#container-e {
+    
+    border-top: solid 20px #F4F4F4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color:#F4F4F4;
+    background-color: #8A8A8A;
+}
+
+.botao-a {
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    background-color: #F4F4F4;
+    box-shadow: none;
+    border: solid 1px #ffbb13 ;
+
+
+}
+.botao-a:hover {
+    background: #ffbb13;
+    color: white;
+    box-shadow: inset 0 0 0 3px #ffbb13;
+
+}
+
+.botao-b {
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    border: solid 1px #ea5959;
+}
+.botao-b:hover {
+    background: #ea5959;
+    color: white;
+    box-shadow: inset 0 0 0 3px #ea5959;
+
+}
+
+.botao-c {
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    border: solid 1px #8A8A8A;
+
+}
+.botao-c:hover {
+    background: #8A8A8A;
+    color: white;
+    box-shadow: inset 0 0 0 3px #8A8A8A;
+
+}
+
+.botao-d {
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    border: solid 1px #111111;
+
+
+}
+
+.botao-d:hover {
+    background: #111111;
+    color: white;
+    box-shadow: inset 0 0 0 3px #111111;
+
+}
+.botao-e {
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #8A8A8A;
+    border: solid 1px white;
+
+
+}
+.botao-e:hover {
+    background: #F4F4F4;
+    color: black;
+    box-shadow: inset 0 0 0 3px #F4F4F4;
+}
