@@ -7,8 +7,8 @@
     height: 20px;
     margin: auto;
     padding: 12px;
+    
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     background-color: white;
@@ -16,16 +16,21 @@
 }
 .logo {
     width: 75px;
+    align-items: center;
+    margin-right: 950px;
+
 }
 
 .icons{
+    margin-right:5px;
+    margin-left: 5px;
     display:inline-block;
     justify-content:flex-end;
 }
 
 .icons:hover {
-    background: rgba(0,0,0,0);
-    color: #ffbb13;
+    background: #ffbb13;
+    color: white;
     box-shadow: inset 0 0 0 3px #ffbb13;
 }
 
@@ -37,7 +42,7 @@ div {
 }
 
 #container-a {
-    border-top: solid 15px #f3f3f3;
+    border-top: solid 5px #ffbb13;
     margin-left: 100px;
     margin-top: 75px;
     font-family: 'Fira Sans', sans-serif;
@@ -49,9 +54,8 @@ div {
 }
 
 #container-b {
-    
+    border-top: solid 5px #ea5959;
     margin-top: 75px;
-    border-top: solid 15px #f3f3f3;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 100px;
     font-size: 25px;
@@ -63,7 +67,7 @@ div {
 
 #container-c {
     
-    border-top: solid 15px  #f3f3f3;
+    border-top: solid 5px #8A8A8A;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 100px;
     font-size: 25px;
@@ -75,19 +79,18 @@ div {
 
 #container-d {
     
-    border-top: solid 15px  #f3f3f3;
+    border-top: solid 5px  #111111;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 100px;
     font-size: 25px;
     text-align:center;
     color: #111111;
-    
     background-color: #f3f3f3;
 }
 
 #container-e {
 
-    border-top: solid 15px #8A8A8A;
+    border-top: solid 5px #8A8A8A;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 100px;
     font-size: 25px;
@@ -112,6 +115,7 @@ div {
 
 
 }
+
 .botao-a:hover {
     background: #ffbb13;
     color: white;
@@ -151,6 +155,7 @@ div {
     border: solid 1px #8A8A8A;
 
 }
+
 .botao-c:hover {
     background: #8A8A8A;
     color: white;
